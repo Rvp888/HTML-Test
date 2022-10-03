@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+       table {
+        background-color: rgba(0, 0, 0, 0.949);
+        border:1px solid black;
+        text-align:center;
+        border-radius: 10px;
+       }
+       th {
+        font-size: large;
+        border:1px solid black;
+        border-radius: 15px;
+        background-color: rgba(240, 64, 64, 0.812);
+        width:10%;
+        padding: 7px;
+        color:white;
+       }
+       td {
+        background-color: rgba(231, 110, 110, 0.875);
+        border:1px solid black;
+        border-radius: 15px;
+        width:10%;
+        padding: 7px;
+        color:white;
+       }
+    </style>
+</head>
+
+<body>
+   
+    <table>
+        <tr>
+            <th colspan="2" rowspan="2">Name</th>
+            <th rowspan="2">Age</th>
+            <th colspan="2">City</th>
+            <th rowspan="2">Occupation</th>
+        </tr>
+        <tr>
+            <th>Permanent</th>
+            <th>Current</th>
+        </tr>
+        <tr>
+            <td>Rohan</td>
+            <td>Palankar</td>
+            <td rowspan="2">29</td>
+            <td>Karwar</td>
+            <td>Karwar</td>
+            <td>Student</td>
+        </tr>
+        <tr>
+            <td>Aditya</td>
+            <td>Revankar</td>
+            <td>Karwar</td>
+            <td rowspan="3">Margao</td>
+            <td rowspan="2">Phrmacist</td>
+        </tr>
+        <tr>
+            <td>Rahul</td>
+            <td>Shinde</td>
+            <td rowspan="2">28</td>
+            <td>Kollapur</td>
+        </tr>
+        <tr>
+            <td>Vivek</td>
+            <td>Vishwakarma</td>
+            <td>Nagpur</td>
+            <td>Engineer</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

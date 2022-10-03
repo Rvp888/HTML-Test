@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Test on HTML</title>
+
+    <style>
+        table {
+          font-family: Cambria;
+          border-collapse: collapse;
+          width: 80%;
+          border: 2px solid black; 
+        }
+        td {
+          border: 2px solid black;
+          text-align: center;
+          padding: 10px;
+          font-size: 18px;
+        }
+        tr:nth-child(odd) {
+            background-color: rgba(194, 196, 199, 0.532);
+        }
+        tr:hover {
+            background-color: rgba(229, 128, 160, 0.845);
+        }
+        
+
+    </style>
+</head>
+<body>
+    <table border="1" width="1000px">
+        <tr style="color:white">
+            <td rowspan="2" colspan="2" style="background-color:rgba(7, 113, 7, 0.745)">Vehicles</td>
+            <td colspan="5" style="background-color:rgba(7, 113, 7, 0.745)">2017</td>
+            <td colspan="5" style="background-color:rgba(7, 113, 7, 0.745)">2018</td>
+        </tr>
+        <tr style="color:white">
+            <td colspan="2"style="background-color:rgba(7, 113, 7, 0.745)">Sales</td>
+            <td colspan="2"style="background-color:rgba(7, 113, 7, 0.745)">Profit</td>
+            <td rowspan="2"style="background-color:rgba(7, 113, 7, 0.745)">Best Month</td>
+            <td colspan="2"style="background-color:rgba(7, 113, 7, 0.745)">Sales</td>
+            <td colspan="2"style="background-color:rgba(7, 113, 7, 0.745)">Profit</td>
+            <td rowspan="2"style="background-color:rgba(7, 113, 7, 0.745)">Best Month</td>
+        </tr>
+        <tr style="color:white">
+            <td style="background-color:rgba(7, 113, 7, 0.745)">Category</td>
+            <td style="background-color:rgba(7, 113, 7, 0.745)">Type</td>
+            <td style="background-color:rgba(7, 113, 7, 0.745)">#</td>
+            <td style="background-color:rgba(7, 113, 7, 0.745)">%</td>
+            <td style="background-color:rgba(7, 113, 7, 0.745)">$</td>
+            <td style="background-color:rgba(7, 113, 7, 0.745)">%</td>
+            <td style="background-color:rgba(7, 113, 7, 0.745)">#</td>
+            <td style="background-color:rgba(7, 113, 7, 0.745)">%</td>
+            <td style="background-color:rgba(7, 113, 7, 0.745)">$</td>
+            <td style="background-color:rgba(7, 113, 7, 0.745)">%</td>  
+        </tr>
+        <tr>
+            <td rowspan="3" style="background-color:rgba(100, 202, 100, 0.745)">Cars</td>
+            <td style="background-color:rgba(100, 202, 100, 0.745)">Utility</td>
+            <td>1</td>
+            <td>4.3%</td>
+            <td>$500</td>
+            <td>0%</td>
+            <td>August</td>
+            <td>3</td>
+            <td>14.3%</td>
+            <td>$1,500</td>
+            <td>1.7%</td>
+            <td>July</td>
+        </tr>
+        <tr>
+            <td style="background-color:rgba(100, 202, 100, 0.745)">Y-Class lux</td>
+            <td>0</td>
+            <td>0%</td>
+            <td>$0</td>
+            <td>0%</td>
+            <td></td>
+            <td>1</td>
+            <td>4.8%</td>
+            <td>$5,000</td>
+            <td>5.6%</td>
+            <td>January</td>
+        </tr>
+        <tr>
+            <td style="background-color:rgba(100, 202, 100, 0.745)">Rustbox</td>
+            <td>1</td>
+            <td>4.3%</td>
+            <td>$1.35</td>
+            <td>0%</td>
+            <td>February</td>
+            <td>0</td>
+            <td>0%</td>
+            <td>$0</td>
+            <td>0</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="background-color:rgba(100, 202, 100, 0.745)">Trucks</td>
+            <td style="background-color:rgba(100, 202, 100, 0.745)">A Large One</td>
+            <td>10</td>
+            <td>43.5%</td>
+            <td>$100,000</td>
+            <td>0.3%</td>
+            <td>November</td>
+            <td>3</td>
+            <td>14.3%</td>
+            <td>$30,000</td>
+            <td>33.6%</td>
+            <td>July</td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="background-color:rgba(100, 202, 100, 0.745)">Starfighters</td>
+            <td style="background-color:rgba(100, 202, 100, 0.745)">S-Wing</td>
+            <td>4</td>
+            <td>17.4%</td>
+            <td>$200,000</td>
+            <td>0.7%</td>
+            <td>December</td>
+            <td>1</td>
+            <td>4.8%</td>
+            <td>$50,000</td>
+            <td>55.9%</td>
+            <td>July</td>
+        </tr>
+        <tr>
+            <td style="background-color:rgba(100, 202, 100, 0.745)">The Century Hawk</td>
+            <td>1</td>
+            <td>4.3%</td>
+            <td>$2.6bn</td>
+            <td>99.5%</td>
+            <td>December</td>
+            <td>0</td>
+            <td>0%</td>
+            <td>$0</td>
+            <td>0%</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="4" style="background-color:rgba(100, 202, 100, 0.745)">Tricycles</td>
+            <td style="background-color:rgba(100, 202, 100, 0.745)">My First Tricycle</td>
+            <td>2</td>
+            <td>8.7%</td>
+            <td>$34</td>
+            <td>0%</td>
+            <td>June</td>
+            <td>2</td>
+            <td>9.5%</td>
+            <td>$34</td>
+            <td>0%</td>
+            <td>June</td>
+        </tr>
+        <tr>
+            <td style="background-color:rgba(100, 202, 100, 0.745)">Two-Wheeled Trike</td>
+            <td>2</td>
+            <td>8.7%</td>
+            <td>$196</td>
+            <td>0%</td>
+            <td>August</td>
+            <td>8</td>
+            <td>38.1%</td>
+            <td>$784</td>
+            <td>0.9%</td>
+            <td>July</td>
+        </tr>
+        <tr>
+            <td style="background-color:rgba(100, 202, 100, 0.745)">Trikextreme 3000</td>
+            <td>0</td>
+            <td>0%</td>
+            <td>$0</td>
+            <td>0%</td>
+            <td></td>
+            <td>1</td>
+            <td>4.8%</td>
+            <td>$2000</td>
+            <td>2.2%</td>
+            <td>September</td>
+        </tr>
+        <tr>
+            <td style="background-color:rgba(100, 202, 100, 0.745)">My Second Tricycle</td>
+            <td>2</td>
+            <td>8.7%</td>
+            <td>$68</td>
+            <td>0%</td>
+            <td>July</td>
+            <td>2</td>
+            <td>9.5%</td>
+            <td>$68</td>
+            <td>0.1%</td>
+            <td>March</td>
+        </tr>
+        <tr height=80px  style="color:white">
+            <td colspan="2" style="background-color:rgba(7, 113, 7, 0.745)">Totals</td>
+            <td colspan="2" style="background-color:rgba(7, 113, 7, 0.745)">23</td>
+            <td colspan="2" style="background-color:rgba(7, 113, 7, 0.745)">$26120731.35</td>
+            <td style="background-color:rgba(7, 113, 7, 0.745)">December</td>
+            <td colspan="2" style="background-color:rgba(7, 113, 7, 0.745)">21</td>
+            <td colspan="2" style="background-color:rgba(7, 113, 7, 0.745)">$89386</td>
+            <td style="background-color:rgba(7, 113, 7, 0.745)">July</td>
+        </tr>
+    </table>
+</body>
+</html>
